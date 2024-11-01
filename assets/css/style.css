@@ -181,20 +181,34 @@ margin-bottom: 30px;
     margin-top: 30px;
     width: 100%;
     border-bottom: black 1px solid;
+    
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+    font-weight: bolder;
+    
 }
 
-.divRow {
+.divRow{
+    
     display: flex;
     flex-direction: row;
-}
-
-.fullCard {
+    margin: 15px;
 
 }
+
+
 
 .firstRow {
+   margin-right: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.a{
+    
 }
 
 .secondRow {
@@ -208,6 +222,10 @@ margin-bottom: 30px;
 }
 
 .thirdRow {
-    display: flex;
-    flex-direction: row;
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;
+    
 }
+
+
