@@ -180,4 +180,34 @@ margin-bottom: 30px;
     padding-right: 250px;
     margin-top: 30px;
     width: 100%;
+    border-bottom: black 1px solid;
+}
+
+.divRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.fullCard {
+
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdRow {
+    display: flex;
+    flex-direction: row;
 }
