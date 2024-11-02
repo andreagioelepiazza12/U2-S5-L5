@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin-top: 100px;
 }
 
 
@@ -7,11 +8,18 @@ body {
 
 /*--------------------------NAVBAR----------------------------------*/
 nav{
-    
+    position: fixed !important;
+    top: 0;
+    z-index: 1000;
 }
 
 
 .navbarContainer {
+
+    position: fixed;            /* Fissa la navbar */
+    top: 0; 
+    z-index: 1000;
+    
     padding-left: 250px;
     padding-right: 250px;
     width: 100%;
@@ -24,6 +32,11 @@ nav{
     font-family: "Spectral", serif;
     font-weight: 200;
     font-style: normal;
+}
+
+.navbarContainerScrolled {
+    background-color: white;
+    transition: background-color 1s;
 }
 
 .logoContainer {
@@ -76,6 +89,11 @@ nav{
     
 }
 
+.navBtnContainerFullScrolled {
+    background-color: #1a8917;
+    transition: background-color 1s;
+}
+
 .navBtnFull {
     position: relative;
     top: 11px;
@@ -87,6 +105,12 @@ nav{
     display: flex;
     justify-content: flex-end;
     border-top-left-radius: 0.;
+}
+
+.navBtnFullScrolled {
+    background-color: #1a8917;
+    transition: background-color 1s;
+    
 }
 
 
